@@ -1,0 +1,14 @@
+┌────────────────────────────────────────────────┐
+│Exercice 00					                 │
+├────────────────────────────────────────────────┤
+│Fichiers a rendre :                             │
+│ft_strlen.c                                     │
+├────────────────────────────────────────────────┤
+│fonctions autorises : aucune                    │
+├────────────────────────────────────────────────┤
+│Objectif : faire une fonction                   │
+│nomme ft_strlen qui compte le nombre characteres│ 
+│dans un char *                                  │
+└────────────────────────────────────────────────┘
+
+

@@ -1,0 +1,12 @@
+┌────────────────────────────────────────────────┐
+│Exercice 01					                 │
+├────────────────────────────────────────────────┤
+│Fichiers a rendre :                             │
+│ft_isalphanum.c                                 │
+├────────────────────────────────────────────────┤
+│fonctions autorises : aucune                    │
+├────────────────────────────────────────────────┤
+│Objectif : faire une fonction                   │
+│nomme ft_isalphanum qui check si une string est │ 
+│uniquement remplie de lettre ou de string       │
+└────────────────────────────────────────────────┘

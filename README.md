@@ -24,6 +24,8 @@ Pour que je sache quand un projet est pret a etre corrige, merci de m'envoyer un
 Tout serra a rendre depuis git, merci de bien chacunes / chacun travailler sur vos branches.
 de plus le mot du premier exo est : "Hello World"
 Si vos exercices sont faux, vous verrez sur votre branche un fichier "result.txt"
+Si un de vos exercices est faux, l'evalutation s'arrete sur le champs et aucun tests de plus ne serront fais.
+
 
 
 ## conclusion et dernier conseille

@@ -1,12 +1,20 @@
 ┌────────────────────────────────────────────────┐
-│Exercice 02					                 │
+│Exercice 04					                 │
 ├────────────────────────────────────────────────┤
 │Fichiers a rendre :                             │
-│ft_isalphanum.c                                 │
+│ft_realloc.c                                    │
 ├────────────────────────────────────────────────┤
-│fonctions autorises : aucune                    │
+│fonctions autorises : malloc                    │
 ├────────────────────────────────────────────────┤
-│Objectif : faire une fonction                   │
-│nomme ft_isalphanum qui check si une string est │ 
-│uniquement remplie de lettre ou de string       │
+│Objectif : augmente l'espace "physique" donner  │
+│en arguments, l'espace est egalement donner.    │
+│de plus, les anciennes donnees doivent etre dans│
+│le nouveau malloc                               │
 └────────────────────────────────────────────────┘
+
+voici le prototype de la fonction
+
+void *ft_realloc(void *old, size_t new_size);
+
+pour cette exercice il vous sera demander de rendre un main de test,
+aucun leak ne sera tolerer.

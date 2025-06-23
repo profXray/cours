@@ -1,0 +1,56 @@
+Exercice 05:
+
+pour cette exercices, plusieurs fonctions seront demandes.
+voici la liste :
+
+lstnew
+lstadd_back
+lstadd_front
+lstremove
+lstremove_all
+
+voici la structure qui vous sera necessaire:
+
+typedef struct s_list
+{
+	// valeur de la liste chainnee
+	char *value;
+
+	// Prochain maillon de la liste chainnee
+	s_list *next;
+
+}	t_list;
+
+
+pour chaqu'une des fonctions vous devrez les mettre dans un fichier separe.
+Pour vous faciliter la tache de compilation et d'execution du programme je vous conseille de vous faire un Makefile.
+En respectant toujours les regles du README.
+
+
+
+voici ce que chaque fonction doivent faire :
+
+
+1. t_list *lstnew(char *val) :
+
+creer un nouveau maillon pour la liste chainnee;
+
+2. t_list *lstadd_back(t_list **list, t_list *new);
+
+ajoute un maillon a la fin de la liste chainnee
+
+3. lstadd_front(t_list **list, t_list *new);
+
+ajoute un maillon au debut de la liste chainnee
+
+4. void lstremove(t_list *list);
+
+supprime un seul element de la liste chainnee
+
+5. void lstremove_all(t_list **list);
+
+supprime toute la liste chainnee
+
+
+Il vous ai egalement demande de rendre un main de test.
+
